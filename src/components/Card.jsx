@@ -15,7 +15,9 @@ function Card(prop) {
                     </div>
                     <h1 className="card-title">{prop.title}</h1>
                     <div className="card-dates">
-                        <p>{prop.startDate} - {prop.endDate}</p>
+                        <p>{prop.startDate} </p>
+                        {prop.endDate && <p>-</p>}
+                        {prop.endDate && <p> {prop.endDate}</p>}
                     </div>
                     <p className="card-description">{prop.description}</p>
                 </div>
