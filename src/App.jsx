@@ -14,6 +14,8 @@ function App() {
     );
   });
 
+  cardElements.reverse();
+
   return (
     <div>
       <Navbar />
