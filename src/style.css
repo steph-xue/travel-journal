@@ -34,8 +34,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-block: 18px;
   gap: 20px;
+  padding-bottom: 15px;
 }
 
 .card-image {
@@ -89,7 +89,10 @@ body {
   max-width: 326px;
 }
 
-.line {
-  color: rgb(96, 34, 34);
+hr {
+  color: #eeeded;
+  background-color: #eeeded;
+  border: none;
+  height: 1px;
   margin-bottom: 18px;
 }

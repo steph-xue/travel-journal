@@ -20,7 +20,7 @@ function Card(prop) {
                     <p className="card-description">{prop.description}</p>
                 </div>
             </div>
-            <hr className="line" />
+            <hr />
         </div>
     );
 }
