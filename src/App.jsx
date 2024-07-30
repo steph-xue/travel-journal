@@ -1,12 +1,25 @@
 import React from 'react'
 import Navbar from './components/Navbar.jsx'
-import Cards from './components/Cards.jsx'
+import Card from './components/Card.jsx'
+import data from './data.jsx'
 
 function App() {
+
+  const cardElements = data.map(card => {
+    return (
+      <Card 
+        key={card.id}
+        {...card}
+      />
+    );
+  });
+
   return (
     <div>
       <Navbar />
-      <Cards />
+      <div className="card-list">
+        {cardElements}
+      </div>
     </div>
   );
 }
