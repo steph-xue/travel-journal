@@ -1,5 +1,5 @@
 # Travel Journal Project
-The travel journal project is a static web application built using the front-end JavaScript library, React. The travel journal displays various travel destinations and I have visited in the past. Each destination displays a photo, the location city and country, a link to the location's Google Maps URL, travel dates, and a description with fun facts about the destination.
+The travel journal project is a static website built using the front-end JavaScript library, React. The travel journal displays various travel destinations and I have visited in the past. Each destination displays a photo, the location city and country, a link to the location's Google Maps URL, travel dates, and a description with fun facts about the destination.
 
 Can access on: https://travel-journal-sx.netlify.app/
 
@@ -19,9 +19,9 @@ Can access on: https://travel-journal-sx.netlify.app/
 - The web application can be run on your local server by typing in the command line 'npm run dev'
 
 ## How to Deploy
-- To build out the application for deployment use “npm run build”
+- To build out the website for deployment use “npm run build”
 - To test out the preview before deploying the application use “npm run preview”
-- Deploy the application on your server of choice:
+- Deploy the website on your server of choice:
   - Netlify using the command line
     - Install the Netlify CLI using “npm install -g netlify-cli”
     - Create a new site in Netlify using “ntl init”
