@@ -1,5 +1,5 @@
 # Travel Journal Project
-The travel journal project is a static web application built using the front-end JavaScript library, React. The travel journal displays various travel destinations and I have visited in the past. Each destination displays a photo, description with fun facts about the location, travel dates, location city and country, as well as a link to it's Google Maps URL.
+The travel journal project is a static web application built using the front-end JavaScript library, React. The travel journal displays various travel destinations and I have visited in the past. Each destination displays a photo, the location city and country, a link to the location's Google Maps URL, travel dates, and a description with fun facts about the destination.
 
 Can access on: https://travel-journal-sx.netlify.app/
 
