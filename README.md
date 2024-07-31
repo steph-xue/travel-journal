@@ -1,7 +1,7 @@
 # Travel Journal Project
-The digital business card project is a static web application built using the front-end JavaScript library, React. The digital business card displays some information about myself and my interests, with links to my email, linkedin, and other social media platforms including twitter, facebook, instagram and github.
+The travel journal project is a static web application built using the front-end JavaScript library, React. The travel journal displays various travel destinations and I have visited in the past. Each destination displays a photo, description with fun facts about the location, travel dates, location city and country, as well as a link to it's Google Maps URL.
 
-Can access on: https://digital-business-card-steph.netlify.app/
+Can access on: https://travel-journal-sx.netlify.app/
 
 ![Travel Journal](./images/travel-journal.png?raw=true "Travel Journal")
 <br></br>
