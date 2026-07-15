@@ -1,6 +1,6 @@
 # Travel Journal
 
-A web application built with React that displays a personal journal of past travel destinations, each shown as its own card with a photo, a Google Maps link to the location, the travel dates, and a short journal style description of the trip. The most recently added destination is always shown first, so the journal reads newest to oldest.
+A web application that displays a personal journal of past travel destinations, each shown as its own card with a photo, a Google Maps link to the location, the travel dates, and a short journal style description of the trip. The most recently added destination is always shown first, so the journal reads newest to oldest.
 
 **[View Live Demo](https://travel-journal-sx.netlify.app/)**
 
