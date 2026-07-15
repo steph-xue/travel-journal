@@ -1,6 +1,6 @@
 # Travel Journal
 
-A web application built with React that displays a personal journal of past travel destinations, each shown as its own card with a photo, dates, and a short description. The journal currently includes a dozen destinations, ranging from single day stops to multi day trips, with the most recent one always shown first.
+A web application built with React that displays a personal journal of past travel destinations, each shown as its own card with a photo, a Google Maps link to the location, the travel dates, and a short journal style description of the trip. The most recently added destination is always shown first, so the journal reads newest to oldest.
 
 **[View Live Demo](https://travel-journal-sx.netlify.app/)**
 
@@ -18,7 +18,7 @@ A web application built with React that displays a personal journal of past trav
 
 ## Overview
 
-This project is a small web application built to practice rendering a list of reusable components from structured data in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every destination is stored as an entry in a single data file and rendered through one shared Card component, so adding a new trip only requires adding a new entry to that file rather than writing any additional markup. Each entry includes a title, location, travel dates, a Google Maps link, a description, and a photo, giving every card the same consistent layout regardless of how much or how little information a particular trip has.
+This project is a small web application built to practice rendering a list of reusable components from structured data in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every destination is stored as an entry in a single data file and rendered through one shared Card component, so adding a new trip only requires adding a new entry to that file rather than writing any additional markup. Each entry pairs a photo with its own Google Maps link, travel dates, and a written description of the trip, giving every card the same consistent layout regardless of how much or how little detail a particular destination has.
 
 <br>
 
