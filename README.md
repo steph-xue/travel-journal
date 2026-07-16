@@ -1,8 +1,18 @@
-# Travel Journal
+<h1 align="center">
+  Travel Journal
+</h1>
 
-A travel journal web application that showcases a personal collection of past destinations, with each trip displayed in its own card. Every entry includes a photo, a Google Maps link, travel dates, and a short journal-style description, with the most recent destinations shown first.
+<h4 align="center">
+  A web application that displays a personal journal of my past travel destinations with photos, dates, descriptions, and map links.
+</h4>
 
-**[View Live Demo](https://travel-journal-sx.netlify.app/)**
+<p align="center">
+  <img src="./images/travel-journal.png?raw=true" alt="Travel Journal" width="500">
+</p>
+
+<p align="center">
+  <a href="https://travel-journal-sx.netlify.app/">View Live Demo</a>
+</p>
 
 <br>
 
@@ -18,7 +28,7 @@ A travel journal web application that showcases a personal collection of past de
 
 ## Overview
 
-This project showcases a personal collection of past travel destinations through reusable React components and structured data. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. Each destination is stored as an object in a shared data file and dynamically rendered through a reusable Card component, making it easy to add new trips without writing additional page markup. Every card includes a destination photo, Google Maps link, travel dates, and a journal-style description within a consistent layout. Entries are arranged in reverse chronological order so the most recent trips appear first.
+This project presents a personal journal of past travel destinations, with each trip displayed as an individual card containing a photo, location, travel dates, and a short description. Each card also includes a direct Google Maps link to the destination, and the most recently added trip appears first so the journal is organized from newest to oldest. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. Every destination is stored as an entry in a shared data file and dynamically rendered through a reusable Card component, allowing new trips to be added without writing additional markup. Conditional rendering displays either a single date or a date range depending on the information available for each destination.
 
 <br>
 
