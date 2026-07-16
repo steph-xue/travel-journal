@@ -28,7 +28,7 @@
 
 ## Overview
 
-This project presents a personal journal of past travel destinations, with each trip displayed as an individual card containing a photo, location, travel dates, and a short description. Each card also includes a direct Google Maps link to the destination, and the most recently added trip appears first so the journal is organized from newest to oldest. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. Every destination is stored as an entry in a shared data file and dynamically rendered through a reusable Card component, allowing new trips to be added without writing additional markup. Conditional rendering displays either a single date or a date range depending on the information available for each destination.
+This project presents a personal journal of past travel destinations, with each trip displayed as an individual card containing a photo, location, travel dates, and a short description. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. Each card also includes a direct Google Maps link to the destination, and the most recently added trip appears first so the journal is organized from newest to oldest. Every destination is stored as an entry in a shared data file and dynamically rendered through a reusable Card component, allowing new trips to be added without writing additional markup. Conditional rendering displays either a single date or a date range depending on the information available for each destination.
 
 <br>
 
