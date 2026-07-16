@@ -18,7 +18,7 @@ A web application that displays a personal journal of past travel destinations, 
 
 ## Overview
 
-This project is a small web application built to practice rendering a list of reusable components from structured data in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every destination is stored as an entry in a single data file and rendered through one shared Card component, so adding a new trip only requires adding a new entry to that file rather than writing any additional markup. Each entry pairs a photo with its own Google Maps link, travel dates, and a written description of the trip, giving every card the same consistent layout regardless of how much or how little detail a particular destination has.
+This project is a web application that showcases a personal collection of past travel destinations using reusable React components and structured data. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Each destination is stored as an entry in a single data file and rendered through a shared Card component, allowing new trips to be added without creating additional markup. Every entry combines a photo, Google Maps link, travel dates, and a written description within a consistent card-based layout. The destinations are organized in reverse chronological order so the most recent trips appear first.
 
 <br>
 
