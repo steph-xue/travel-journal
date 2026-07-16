@@ -3,7 +3,8 @@
 </h1>
 
 <h4 align="center">
-  A travel journal web application that displays a personal collection of past travel destinations with photos, dates, descriptions, and map links.
+  A travel journal web application that displays a personal collection of <br>
+  past travel destinations with photos, dates, descriptions, and map links.
 </h4>
 
 <p align="center">
