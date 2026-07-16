@@ -1,6 +1,6 @@
 # Travel Journal
 
-A web application that displays a personal journal of past travel destinations, each shown as its own card with a photo, a Google Maps link to the location, the travel dates, and a short journal style description of the trip. The most recently added destination is always shown first, so the journal reads newest to oldest.
+A travel journal web application that showcases a personal collection of past destinations, with each trip displayed in its own card. Every entry includes a photo, a Google Maps link, travel dates, and a short journal-style description, with the most recent destinations shown first.
 
 **[View Live Demo](https://travel-journal-sx.netlify.app/)**
 
@@ -18,7 +18,7 @@ A web application that displays a personal journal of past travel destinations, 
 
 ## Overview
 
-This project is a web application that showcases a personal collection of past travel destinations using reusable React components and structured data. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Each destination is stored as an entry in a single data file and rendered through a shared Card component, allowing new trips to be added without creating additional markup. Every entry combines a photo, Google Maps link, travel dates, and a written description within a consistent card-based layout. The destinations are organized in reverse chronological order so the most recent trips appear first.
+This project showcases a personal collection of past travel destinations through reusable React components and structured data. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. Each destination is stored as an object in a shared data file and dynamically rendered through a reusable Card component, making it easy to add new trips without writing additional page markup. Every card includes a destination photo, Google Maps link, travel dates, and a journal-style description within a consistent layout. Entries are arranged in reverse chronological order so the most recent trips appear first.
 
 <br>
 
