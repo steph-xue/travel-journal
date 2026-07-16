@@ -3,11 +3,11 @@
 </h1>
 
 <h4 align="center">
-  A web application that displays a personal journal of my past travel destinations with photos, dates, descriptions, and map links.
+  A travel journal web application that displays a personal collection of past travel destinations with photos, dates, descriptions, and map links.
 </h4>
 
 <p align="center">
-  <img src="./images/travel-journal.png?raw=true" alt="Travel Journal" width="500">
+  <img src="./images/travel-journal.png?raw=true" alt="Travel Journal" width="400">
 </p>
 
 <p align="center">
