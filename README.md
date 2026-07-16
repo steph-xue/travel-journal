@@ -11,8 +11,8 @@ A travel journal web application that showcases a personal collection of past de
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
 
 <br>
 
@@ -44,6 +44,14 @@ Each past trip is displayed on its own card showing a photo, the location's city
 
 The interface is built from two components, a navigation bar and a card, rendered from a single root component. Rather than writing out each destination by hand, the root component loops through an array of destination objects stored in a separate data file and renders one Card component per entry, passing each item's details in as props. Inside the Card component, the end date is only rendered if one exists in the data, so a destination without an end date displays a single date instead of an empty or broken date range. The list of cards is reversed before being displayed, so the most recently added destination always appears first. Vite handles the local development server and production build, compiling the React components into files that can be deployed anywhere.
 
+<br>
+
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- Filtering or sorting destinations by country or travel date
+- A form for adding new destinations directly from the interface
+- An interactive map view showing all destinations at once
+  
 <br>
 
 ## Getting Started
@@ -81,11 +89,3 @@ npm run dev
 ```
 
 Once the server is running, open the local URL shown in the terminal to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
-- Filtering or sorting destinations by country or travel date
-- A form for adding new destinations directly from the interface
-- An interactive map view showing all destinations at once
