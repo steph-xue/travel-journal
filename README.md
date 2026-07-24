@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
-  <img src="./images/travel-journal.png?raw=true" alt="Travel Journal" width="400">
+  <img src="docs/screenshots/travel-journal.png?raw=true" alt="Travel Journal" width="400">
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ This project presents a personal journal of past travel destinations, with each 
 ### Destination Cards
 Each past trip is displayed on its own card showing a photo, the location's city and country, the travel dates, and a short description with details about the destination. Dates are shown as a range for multi day trips, or a single date for destinations visited in one day. A link on each card opens the location directly in Google Maps, and the most recently added destination appears at the top of the list.
 
-<p align="center"><img src="./images/travel-journal.png?raw=true" alt="Travel Journal" width="700"></p>
+<p align="center"><img src="docs/screenshots/travel-journal.png?raw=true" alt="Travel Journal" width="700"></p>
 
 <br>
 

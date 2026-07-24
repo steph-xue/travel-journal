@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 
 function Card(prop) {
     return (
@@ -26,5 +26,16 @@ function Card(prop) {
         </div>
     );
 }
+
+Card.propTypes = {
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    googleMapsUrl: PropTypes.string.isRequired,
+    startDate: PropTypes.string.isRequired,
+    endDate: PropTypes.string,
+    description: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+};
 
 export default Card;
