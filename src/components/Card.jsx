@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 
+// Renders a single destination card with its image, location, dates, and description
 function Card(prop) {
     return (
         <div className="card">

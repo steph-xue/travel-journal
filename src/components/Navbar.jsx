@@ -1,3 +1,4 @@
+// Renders the navigation bar with the app logo and title
 function Navbar() {
     return (
         <nav className="nav">
